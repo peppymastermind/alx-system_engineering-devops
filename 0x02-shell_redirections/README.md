@@ -4,4 +4,5 @@
 4-lastlines display the last ten lines of a file
 5-firstlines display first 10 lines of a file
 6-third_line display the third line of a file
-8-cwd_state write a script into a file 
+8-cwd_state write a script into a file
+9-duplicate_last_line duplicate the last line 
