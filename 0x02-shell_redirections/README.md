@@ -5,4 +5,5 @@
 5-firstlines display first 10 lines of a file
 6-third_line display the third line of a file
 8-cwd_state write a script into a file
-9-duplicate_last_line duplicate the last line 
+9-duplicate_last_line duplicate the last line
+find . -type f -name "*.js" -delete  -  script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders. 
