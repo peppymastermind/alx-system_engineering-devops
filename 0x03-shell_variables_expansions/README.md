@@ -5,3 +5,4 @@ echo $PATH | tr ":" "\n" | wc -1 (script that counts the number of directories i
 printenv (script that lists environment variables.)
 set | less (Create a script that lists all local variables and environment variables, and functions.)
 BEST ="School" (Create a script that creates a new local variable)
+export BEST="School" (Create a script that creates a new global variable.)
