@@ -12,3 +12,4 @@ echo $((BREATH**LOVE)) (a script that displays the result of BREATH to the power
 echo $((2#$BINARY)) (script that converts a number from base 2 to base 10)
 echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo (script that prints all possible combinations of two letters, except oo)
 printf "%0.2f\n" $NUM (script that prints a number with two decimal places, followed by a new line)
+echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1)) (a script that counts the number of directories in the PATH)
