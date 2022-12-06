@@ -15,3 +15,4 @@ printf "%0.2f\n" $NUM (script that prints a number with two decimal places, foll
 echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1)) (a script that counts the number of directories in the PATH)
 printf "%\n" $DECIMAL ( script that converts a number from base 10 to base 16)
 printf '%x\n' $DECIMAL (Write a script that converts a number from base 10 to base 16.)
+tr `echo {a..z} | tr -d ' '` `echo {n..z} $(echo {a..m}) | tr -d ' '` | tr `echo {A..Z} | tr -d ' '` `echo {N..Z} $(echo {A..M}) | tr -d ' '` (Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.)
