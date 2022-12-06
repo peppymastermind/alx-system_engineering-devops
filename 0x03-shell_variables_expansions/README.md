@@ -7,3 +7,4 @@ set | less (Create a script that lists all local variables and environment varia
 BEST ="School" (Create a script that creates a new local variable)
 export BEST="School" (Create a script that creates a new global variable.)
 echo $((TRUEKNOWLEDGE+=128)) (cript that prints the result of the addition of 128 with the value stored in the environment)
+echo $((POWER/DIVIDE)) (script that prints the result of POWER divided by DIVIDE, followed by a new line)
