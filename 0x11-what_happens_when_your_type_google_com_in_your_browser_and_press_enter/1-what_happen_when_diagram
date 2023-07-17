@@ -1,0 +1,14 @@
+The user types "https://www.google.com" in their browser and presses Enter.
+The browser initiates a Domain Name System (DNS) resolution process to translate the domain name "www.google.com" into an IP address.
+Once the IP address is resolved, the browser establishes a secure connection (https) to the server IP on the appropriate port (typically port 443 for HTTPS).
+The traffic between the browser and the server is encrypted using SSL/TLS, ensuring data confidentiality and integrity.
+The traffic may pass through a firewall, which is a network security device that filters incoming and outgoing traffic based on predefined security rules.
+The request may be distributed via a load balancer, which evenly distributes incoming requests across multiple web servers to ensure efficient resource utilization and high availability.
+The web server receives the request and processes it, serving the appropriate web page to the browser.
+The web page may contain dynamic content that requires processing by an application server.
+The application server generates the web page by executing server-side code, accessing databases, and performing any necessary computations.
+The application server sends requests to the database to retrieve the required data.
+The database processes the requests and returns the requested data to the application server.
+The application server integrates the retrieved data into the web page and generates the final response.
+The web server sends the complete response back to the browser, which renders and displays the web page to the user.
+This sequential flow represents a simplified overview of the request process when accessing a website like "https://www.google.com." Each step involves various protocols, technologies, and systems working together to deliver the requested web page to the user.

@@ -1,0 +1,27 @@
+Fork the repository: Go to the original repository's GitHub page (https://github.com/alex/what-happens-when), click on the "Fork" button at the top-right corner to create a copy of the repository under your own GitHub account.
+
+Clone the forked repository: On your local machine, open a terminal or command prompt and use the git clone command to clone your forked repository onto your computer.
+
+shell
+Copy code
+git clone https://github.com/your-username/what-happens-when.git
+Make your changes: Navigate to the cloned repository on your computer and make the necessary changes or additions to the files.
+
+Commit your changes: After making the desired modifications, use the git add command to stage the changed files, followed by the git commit command to commit the changes.
+
+shell
+Copy code
+git add .
+git commit -m "Add comprehensive answer for the 'G key is pressed' question"
+Push the changes: Push the committed changes to your forked repository on GitHub using the git push command.
+
+shell
+Copy code
+git push origin master
+Submit a pull request: Go to your forked repository on GitHub and click on the "New pull request" button. This will allow you to compare and submit your changes to the original repository.
+
+Provide a clear and concise description of the changes you made in the pull request, explaining why they are valuable and relevant.
+
+Once you've followed these steps and submitted the pull request, the repository maintainer will review your changes and decide whether to merge them into the original repository.
+
+Please note that the specific content of the pull request will depend on the changes you want to make and the project's guidelines. I encourage you to refer to the project's documentation or contributing guidelines for more specific instructions.

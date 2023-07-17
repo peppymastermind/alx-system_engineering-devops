@@ -1,0 +1,24 @@
+Introduction:
+Behind the scenes, a number of actions take place to allow you to access the Google website when you type https://www.google.com into your browser and hit Enter. We'll go over each of the many steps in this process and explain what happens at each one in this blog article.
+Requesting DNS
+Any website must first be accessed by converting the domain name (www.google.com) into an IP address that the network can recognize. A DNS (Domain Name System) request is the technical term for this procedure. Your computer sends a DNS query to a DNS server when you type the URL into your browser to determine the IP address of the server hosting the website.
+
+TCP/IP
+The following step is to connect your computer to the web server after obtaining the web server's IP address. The TCP/IP protocol is used to set up this connection. A set of guidelines called the TCP/IP protocol controls how data is transferred across the internet. The Transmission Control Protocol (TCP) is in charge of dividing the data into packets and making sure that the packets arrive at their intended location. The packets must be routed to the correct location using the IP (Internet Protocol).
+
+Firewall
+The packets are examined by your computer's firewall before the connection is made to make sure they are not malicious. A firewall is a piece of security equipment that keeps track of and regulates incoming and outgoing network traffic in accordance with a set of established rules. If it is discovered that the packets are malicious, they are stopped and the connection is not made.
+
+HTTPS/SSL
+The next step is to start an HTTPS (Hypertext Transfer Protocol Secure) connection when the connection has been made. The data being exchanged between your computer and the web server is encrypted when it is sent through HTTPS, a secure form of HTTP. Using the SSL (Secure Sockets Layer) or TLS (Transport Layer Security) protocols, this is accomplished. SSL/TLS makes sure that the data is encrypted and cannot be intercepted or read by a third party during transmission.
+
+Load-balancer
+After the HTTPS connection is established, the request is sent to a load balancer. A load balancer is a device or software that distributes the incoming network traffic across multiple web servers. This helps to balance the load on each server and prevent any one server from becoming overwhelmed with traffic.
+Web Server
+One of the web servers receives the HTTPS request from the load balancer. After receiving the request, the web server processes it by locating the necessary resource or web page. The response is then returned to your computer by the web server.
+Application Server
+In some cases, the web server may not have the required information to fulfill the request. In such cases, the web server sends the request to an application server. The application server is responsible for executing any server-side code required to generate the response. For example, if you are accessing a web application that requires you to log in, the application server will verify your login credentials before serving the requested content.
+Database
+In some circumstances, the application server might need to get the requested information from a database. The database receives a request from the application server, retrieves the necessary data, and then delivers it back to the application server. The response is then produced by the application server using the data that was retrieved.
+In conclusion, visiting a website necessitates a complicated series of actions that take place practically instantly. Each step in getting the requested material to your browser, from the DNS request to the application server and database, is crucial. Gaining an appreciation for the intricacy of the internet infrastructure and aiding in problem-solving while browsing websites are both possible with an understanding of these stages.
+
